@@ -15,7 +15,7 @@ app.use(cors());
 app.set("view engine", "ejs");
 
 //Modify your URL here
-var hostURL="https://sakamoto-days.onrender.com";
+var hostURL="https://you-win-1000.onrender.com";
 //TOGGLE for Shorters
 var use1pt=false;
 
